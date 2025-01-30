@@ -1,4 +1,6 @@
 
+
+
 /* Full-screen layout */
 body {
     height: 100vh;
@@ -6,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f4f4f4;
+    padding-top: 60px;
 }
 
 /* Flex container for logo and login box */
@@ -85,20 +88,28 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #007BFF;
-    padding: 15px 30px;
-
+    padding: 0px 30px;
+    position: fixed; /* ensures its fixed to the top */
+    z-index: 1000;
+    width: 100%;
+    top:0;
+    left:0;
+    height:60px;
 }
 
 /* Small logo beside the nav bar links */
 .nav-logo{
-    height:40px;
+    height:50px;
     width:auto;
 }
 
 .nav-links{
     list-style:none;
     display:flex;
-    gap:20px;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-left:20px;
+    padding-right: 30px;
 }
 
 .nav-links li {
@@ -108,9 +119,9 @@ body {
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    padding: 8px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
