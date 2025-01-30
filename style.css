@@ -78,3 +78,42 @@ body {
 .login-btn:hover {
     background-color: #0056b3;
 }
+
+/* navigation bar customisation*/
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 15px 30px;
+
+}
+
+/* Small logo beside the nav bar links */
+.nav-logo{
+    height:40px;
+    width:auto;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+.nav-links li {
+    display:inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
