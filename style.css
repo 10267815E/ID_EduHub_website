@@ -134,10 +134,10 @@ body {
 .welcome-text{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align:center;
-    margin-top:30px;
-    
+    align-items: flex-start;
+    text-align:left;
+    margin-top:80px;
+    margin-left:30px;
 }
 
 .welcome-text h1{
@@ -147,3 +147,53 @@ body {
 .welcome-text h2{
     font-weight: lighter;
 }
+
+/* Search bar and module button styling*/
+
+.search-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.search-bar, .modules-button {
+    height: 60px; 
+    font-size: 20px; 
+    box-sizing: border-box; 
+}
+
+/* Search Bar */
+.search-bar {
+    flex-grow: 1;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 100%;
+}
+
+/* Button Styling */
+.modules-button {
+    padding: 0 40px; 
+    width: 220px; /* Make the button wider */
+    background-color: #007BFF;
+    color: white;
+    border: 2px solid #007BFF;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap; 
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Hover Effect */
+.modules-button:hover {
+    background-color: #0056b3;
+}
+
+
