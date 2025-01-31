@@ -156,6 +156,7 @@ body {
     margin-top: 20px;
     width: 100%;
     max-width: 800px;
+    gap: 10px;
 }
 
 .search-bar, .modules-button {
