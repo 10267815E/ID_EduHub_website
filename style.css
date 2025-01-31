@@ -2,7 +2,7 @@
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/* Log-in Page */
 /* Full-screen layout */
 body {
     height: 100vh;
@@ -85,7 +85,9 @@ body {
     background-color: #0056b3;
 }
 
-/* navigation bar customisation*/
+
+/* Home Page */
+/* navigation bar customisation */
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -133,78 +135,6 @@ body {
 }
 
 
-/* Ensure welcome-text and info-box stack */
-.welcome-text, .info-box {
-    width: 100%; /* Make them full-width */
-    max-width: 1200px; 
-    margin: 0 auto; /* Center align */
-}
-
-
-.welcome-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align:center;
-    margin-top:80px;
-}
-
-.welcome-text h1{
-    font-weight:bolder
-}
-
-.welcome-text h2{
-    font-weight: lighter;
-}
-
-/* Search bar and module button styling*/
-
-.search-container{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    width: 100%;
-    max-width: 800px;
-    gap: 10px;
-}
-
-.search-bar, .modules-button {
-    height: 60px; 
-    font-size: 20px; 
-    box-sizing: border-box; 
-}
-
-/* Search Bar */
-.search-bar {
-    flex-grow: 1;
-    padding: 15px;
-    border: 2px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-}
-
-/* Button Styling */
-.modules-button {
-    padding: 0 40px; 
-    width: 220px; /* Make the button wider */
-    background-color: #007BFF;
-    color: white;
-    border: 2px solid #007BFF;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap; 
-    font-weight: bold;
-    text-align: center;
-}
-
-/* Hover Effect */
-.modules-button:hover {
-    background-color: #0056b3;
-}
 
 
 /* Slideshow Styles */
@@ -261,34 +191,3 @@ body {
 
 
 
-/* Info Box Styling */
-.info-box {
-    display: block; /* Ensures it's displayed as a block-level element */
-    margin-top: 30px;
-    padding: 20px;
-}
-
-/* Map Container */
-.map-container {
-    width: 100%; /* Make it take full width of the container */
-    height: 400px; /* Set a height for the map */
-    border: 2px solid #ccc;
-    overflow: hidden; /* Prevents the iframe from overflowing */
-}
-
-/* Text Section */
-.text-container {
-    width: 100%;  /* Take full width of the container */
-    padding: 20px;
-    max-width: 600px;
-}
-
-.text-container h2 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.text-container p {
-    font-size: 18px;
-    color: #555;
-}
