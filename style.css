@@ -11,6 +11,7 @@ body {
     align-items: center;
     background-color: #f4f4f4;
     padding-top: 60px;
+    margin: 0;
 }
 
 /* Flex container for logo and login box */
@@ -131,13 +132,22 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
+
+/* Ensure welcome-text and info-box stack */
+.welcome-text, .info-box {
+    width: 100%; /* Make them full-width */
+    max-width: 1200px; 
+    margin: 0 auto; /* Center align */
+}
+
+
 .welcome-text{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align:left;
+    align-items: center;
+    justify-content: flex-start;
+    text-align:center;
     margin-top:80px;
-    margin-left:30px;
 }
 
 .welcome-text h1{
@@ -172,7 +182,6 @@ body {
     border: 2px solid #ccc;
     border-radius: 5px 0 0 5px;
     outline: none;
-    width: 100%;
 }
 
 /* Button Styling */
@@ -199,25 +208,39 @@ body {
 
 
 /* Slideshow Styles */
-.mySlides {
-    display: none;
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust the max width if needed */
+    margin: 0 auto;  /* Centers the slideshow horizontally */
+    text-align: center; /* Centers text like dots */
 }
 
-.fade {                /*animation for slide images to fade out*/
+.mySlides {
+    display: none;
+    width: 100%; /* Ensure images fill the container */
+}
+
+.fade { /* Animation for slide images to fade out */
     animation-name: fade;
     animation-duration: 1.5s;
 }
 
-/*Controls the fading effect by altering the opacity of the image*/
+/* Controls the fading effect by altering the opacity of the image */
 @keyframes fade {
-    from {opacity: 0.4} 
-    to {opacity: 1}
+    from { opacity: 0.4; }
+    to { opacity: 1; }
 }
 
-/*Centers the dots*/
+/* Centers the dots */
 .dots-container {
     text-align: center;
     padding: 10px;
+    position: absolute;
+    bottom: 10px; /* Adjust the positioning of the dots */
+    width: 100%;
+    left: 0;
+    right: 0;
 }
 
 .dot {
@@ -230,7 +253,42 @@ body {
     transition: background-color 0.6s ease;
 }
 
-/*When the dot is active (when it's respective image is showing), the color changes to indicate that)*/
+/* When the dot is active (when it's respective image is showing), the color changes */
 .dot.active {
     background-color: #717171;
+}
+
+
+
+
+/* Info Box Styling */
+.info-box {
+    display: block; /* Ensures it's displayed as a block-level element */
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* Map Container */
+.map-container {
+    width: 100%; /* Make it take full width of the container */
+    height: 400px; /* Set a height for the map */
+    border: 2px solid #ccc;
+    overflow: hidden; /* Prevents the iframe from overflowing */
+}
+
+/* Text Section */
+.text-container {
+    width: 100%;  /* Take full width of the container */
+    padding: 20px;
+    max-width: 600px;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-container p {
+    font-size: 18px;
+    color: #555;
 }
