@@ -246,35 +246,8 @@ body {
     text-align: center;
 }
 
-.info-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    max-width: 900px;
-}
 
-.map-container {
-    flex: 1;
-    max-width: 300px; /* Adjust map size */
-}
 
-.text-container {
-    flex: 1;
-    max-width: 400px;
-    text-align: left;
-}
-
-.text-container h2 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.text-container p {
-    font-size: 18px;
-    color: #555;
-}
 
 .home-content {
     display: flex;
