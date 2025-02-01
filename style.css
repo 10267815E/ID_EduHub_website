@@ -261,6 +261,9 @@ body {
 .calendar-container {
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Ensures h1 appears above calendar-content */
+    align-items: center; /* Centers everything */
 }
 
 h1 {
@@ -268,17 +271,16 @@ h1 {
     margin-bottom: 15px;
 }
 
-.calender-content{
-    display:flex;
-    justify-content:center;
+.calendar-content {
+    display: flex;
+    justify-content: center;
     align-items: flex-start;
     gap: 30px;
-    margin-top:20px;
-
+    width: 80%; /* Ensures content is well-placed */
 }
 
 #calendar {
-    width:30%;
+    width:60%;
 }
 
 .timetable {
@@ -296,4 +298,11 @@ h1 {
     height: auto;
     border: 2px solid #ccc; 
     border-radius: 5px;
+}
+
+.calendar-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Adds space below the title */
+    width: 100%; /* Ensures it spans the full width */
+    text-align: center;
 }
