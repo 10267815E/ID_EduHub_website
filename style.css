@@ -254,8 +254,46 @@ body {
     flex-direction: column; /* Stacks children vertically */
     align-items: center; /* Centers them */
     gap: 20px; /* Adds space between sections */
-    margin-top: 100px; /* Increase this value if needed */
+    margin-top: 100px; 
     padding-top: 320px; /* Ensures content is pushed below the navbar */
 }
 
+.calendar-container {
+    text-align: center;
+    margin-top: 20px;
+}
 
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.calender-content{
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top:20px;
+
+}
+
+#calendar {
+    width:30%;
+}
+
+.timetable {
+    width: 35%; 
+    text-align: center;
+}
+
+.timetable h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.timetable-image {
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto;
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+}
