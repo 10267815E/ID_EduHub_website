@@ -425,20 +425,17 @@ h1 {
 }
 
 .achievements-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px; /* Adjust space between circles */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-gap: 10px; /* Space between circles */
 }
 
-.achievement-circle {
+.achievement-img {
     width: 60px;
     height: 60px;
-    background-color: #007BFF;
-    border-radius: 50%;
-    margin: 10px;
-}
+    object-fit: cover; /* Ensures the image fits in the square */
 
+}
 .portfolio-box {
     grid-column: span 2; /* Make the portfolio box span across both columns */
     text-align: left; /* Left-align the text */
