@@ -390,3 +390,24 @@ h1 {
     text-align: center;
     transition: background-color 0.3s;
 }
+
+/* Profile Page */
+
+.profile-container {
+    margin-top: 80px; 
+    padding: 20px;
+}
+
+.profile-box, .achievements-box, .portfolio-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
