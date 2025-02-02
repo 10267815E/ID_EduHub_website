@@ -92,7 +92,7 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007BFF;
+    background-color: #1a5ea7;
     padding: 0px 30px;
     position: fixed; /* ensures its fixed to the top */
     z-index: 1000;
@@ -347,7 +347,7 @@ h1 {
 /* Modules web page */
 .modules-container {
     text-align: center;
-    padding-top:570px;
+    padding-top:540px;
 }
 
 .modules-container h1 {
