@@ -255,7 +255,7 @@ body {
     align-items: center; /* Centers them */
     gap: 20px; /* Adds space between sections */
     margin-top: 100px; 
-    padding-top: 320px; /* Ensures content is pushed below the navbar */
+    padding-top: 80px; /* Ensures content is pushed below the navbar */
 }
 
 .calendar-container {
