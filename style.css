@@ -343,3 +343,34 @@ h1 {
 .close:hover {
     color: red;
 }
+
+.modules-container {
+    text-align: center;
+    margin-top:20px;
+    padding:20px;
+}
+
+.modules-container h1 {
+    font-size: 40px;
+    margin-bottom:20px;   
+}
+
+.module{
+    width:80%;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.module h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.module p {
+    font-size: 16px;
+    color: #555;
+}
