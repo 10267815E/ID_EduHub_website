@@ -394,7 +394,7 @@ h1 {
 /* Profile Page */
 
 .profile-container {
-    margin-top: 80px;
+    margin-top: 20px;
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr; /* Create two columns */
@@ -427,21 +427,22 @@ h1 {
 .achievements-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    grid-gap: 10px; /* Space between circles */
+    grid-gap: 20px; /* Increased space between images */
 }
 
 .achievement-img {
     width: 60px;
     height: 60px;
     object-fit: cover; /* Ensures the image fits in the square */
-
 }
+
 .portfolio-box {
     grid-column: span 2; /* Make the portfolio box span across both columns */
     text-align: left; /* Left-align the text */
     background-color: #f9f9f9;
 }
 
-h2 {
-    margin-bottom: 15px;
+.achievements h2 {
+    margin-bottom: 20px; /* Adds more space below the header */
 }
+
