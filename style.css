@@ -544,8 +544,8 @@ h1 {
 /* Align Daily Tasks header */
 .tasks-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 10px; /* Adds spacing between shop icon and points counter */
 }
 
 .points {
@@ -561,6 +561,13 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+/* Shop Icon */
+.shop-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 /* Task list container */
