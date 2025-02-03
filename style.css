@@ -596,3 +596,47 @@ h1 {
 .claim-btn:hover {
     background-color: #122d77;
 }
+
+/* Align Claim button & difficulty circle */
+.task-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Claim Button */
+.claim-btn {
+    background-color: #184eb3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.claim-btn:hover {
+    background-color: #122d77;
+}
+
+/* Difficulty indicator circles */
+.difficulty {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+/* Easy Difficulty Marker */
+.easy {
+    background-color: #28a745;
+}
+
+/* Medium Difficulty Marker */
+.medium {
+    background-color: #ff9800;
+}
+
+/* Hard Difficulty Marker */
+.hard {
+    background-color: #dc3545;
+}
