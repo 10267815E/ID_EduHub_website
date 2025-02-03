@@ -640,3 +640,27 @@ h1 {
 .hard {
     background-color: #dc3545;
 }
+
+/* Achievement Popup */
+#achievement-popup {
+    position: fixed;
+    bottom: -100px; /* Start hidden */
+    left: 20px;
+    width: 250px;
+    transition: bottom 0.5s ease-in-out;
+    opacity: 0;
+}
+
+/* When active, show the popup */
+#achievement-popup.active {
+    bottom: 20px; /* Moves up into view */
+    opacity: 1;
+}
+
+/* Grey out claim button when clicked */
+.claim-btn.disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
