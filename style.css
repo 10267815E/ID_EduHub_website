@@ -780,3 +780,16 @@ h1 {
     font-weight: bold;
     color: black;
 }
+
+/* Redeem Button */
+.redeem-btn {
+    background-color: #184eb3;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
