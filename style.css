@@ -565,9 +565,10 @@ h1 {
 
 /* Shop Icon */
 .shop-icon {
-    width: 30px;
+    width: 30px; /* Adjust size as needed */
     height: 30px;
     cursor: pointer;
+
 }
 
 /* Task list container */
