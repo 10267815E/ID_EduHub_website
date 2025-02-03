@@ -516,53 +516,36 @@ h1 {
     color: white;
 }
 
-/* All-Time Leaderboard Box */
-.all-time-leaderboard {
-    width: 500px;
-    padding: 15px;
-    background-color: #f4f4f4;
-    border: 2px solid #184eb3;
-    border-radius: 10px;
-    text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.8;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-
+/* Wrap the leaderboard and tasks boxes in a flex container */
+.leaderboard-bottom {
+    display: flex;
+    gap: 40px; /* Space between the two boxes */
+    justify-content: center; /* Centers them on the page */
+    margin-top: 30px;
 }
 
-.all-time-leaderboard h3 {
-    margin-bottom: 10px;
-}
-
-.all-time-leaderboard ul {
-    padding-left: 20px;
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.daily-tasks {
+/* Ensure both boxes have the same height and styling */
+.all-time-leaderboard, .daily-tasks {
     width: 500px;
     padding: 15px;
     background-color: #f9f9f9;
     border: 2px solid #184eb3;
     border-radius: 10px;
-    text-align: left;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.8;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-
-.tasks-header {
-    display: flex;
-    justify-content: space-between; /* Aligns title and points on opposite sides */
-    align-items: center;
+.all-time-leaderboard li {
+    font-weight: lighter;
 }
 
-.tasks-header h3 {
-    margin: 0;
+/* Align Daily Tasks header */
+.tasks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .points {
@@ -571,4 +554,45 @@ h1 {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 16px;
+}
+
+/* Daily Tasks container */
+.daily-tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Task list container */
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual task box */
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0eaff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Claim Button */
+.claim-btn {
+    background-color: #184eb3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.claim-btn:hover {
+    background-color: #122d77;
 }
