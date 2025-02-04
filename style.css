@@ -355,13 +355,16 @@ h1 {
     margin-bottom:20px;   
 }
 
-.module{
-    width:80%;
+.module {
+    width: 80%;
     background-color: white;
     border: 2px solid #153cb2;
     padding: 20px;
     margin: 10px auto;
-    text-align: left;
+    text-align: center; /* Center-aligns all text & inline elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers button horizontally */
 }
 
 .module h2 {
@@ -375,20 +378,20 @@ h1 {
     color: #555;
 }
 
+/* Center the button */
 .view-content-btn {
-    display: inline-block;
-    margin-left: auto;
     background-color: #285a8e;
     color: white;
-    text-decoration: none; /* Removes underline */
+    text-decoration: none;
     border: none;
     padding: 10px 15px;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 23px;
     font-weight: bold;
     text-align: center;
     transition: background-color 0.3s;
+    width: 300px;
 }
 
 /* Profile Page */
