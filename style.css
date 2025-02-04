@@ -978,3 +978,45 @@ h1 {
     height: 355px;
     border-radius: 10px;
 }
+
+/* Campus Map */
+
+/* Campus Map Container */
+.campus-map-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.campus-map-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Layout for Image & Map */
+.map-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+/* Campus Map Image */
+.campus-map-image {
+    width: 45%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #153cb2;
+}
+
+/* Google Maps Embed */
+.campus-map-iframe {
+    width: 45%;
+    max-width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #153cb2;
+}
