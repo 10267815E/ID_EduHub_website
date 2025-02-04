@@ -142,8 +142,11 @@ body {
     position: relative;
     width: 100%;
     max-width: 800px;
-    margin: 30px auto; /* Centers and adds spacing */
+    margin: 10px auto; /* Reducing margin to decrease gap */
     text-align: center;
+}
+.slideshow-container h1 {
+    margin-bottom: 10px; /* Reducing gap between heading and images */
 }
 
 .mySlides {
@@ -153,8 +156,8 @@ body {
 
 .mySlides img {
     width: 100%;
-    max-height: 300px; /* Reduce height to avoid pushing content */
-    object-fit: contain; /* Ensures images fit without distortion */
+    max-height: 220px; /* Slightly reducing height */
+    object-fit: contain;
 }
 
 
@@ -209,7 +212,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 800px; /* Increases max width */
+    max-width: 700px; /* Increases max width */
     gap: 10px;
 }
 
@@ -217,7 +220,7 @@ body {
     flex-grow: 1; /* Makes it take up available space */
     padding: 15px;
     font-size: 18px;
-    height: 30px;
+    height: 20px;
     border: 2px solid #ccc;
     border-radius: 5px 0 0 5px;
     outline: none;
@@ -225,7 +228,7 @@ body {
 
 .modules-button {
     width: 250px; /* Increase width */
-    height: 60px;
+    height: 54px;
     background-color: #007BFF;
     color: white;
     border: 2px solid #007BFF;
@@ -252,7 +255,7 @@ body {
     align-items: center; /* Aligns items vertically */
     justify-content: center; /* Centers the items horizontally */
     gap: 20px; /* Space between mascot and text box */
-    margin-top: 50px; /* Spacing from the slideshow */
+    margin-top: 5px; /* Spacing from the slideshow */
     max-width: 900px; /* Limits width */
     margin-left: auto;
     margin-right: auto;
