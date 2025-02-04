@@ -246,6 +246,46 @@ body {
     text-align: center;
 }
 
+/* Container for the 3D model and text */
+.mascot-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers the items horizontally */
+    gap: 20px; /* Adds space between mascot and text */
+    margin-top: 50px; /* Spacing from the slideshow */
+    max-width: 900px; /* Limits width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Adjust the Sketchfab iframe size */
+.sketchfab-wrapper iframe {
+    width: 400px; 
+    height: 300px;
+    border-radius: 10px; 
+}
+
+/* Mascot text styling */
+.mascot-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.mascot-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mascot-text p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+
+
+
 
 
 
@@ -257,6 +297,9 @@ body {
     margin-top: 100px; 
     padding-top: 80px; /* Ensures content is pushed below the navbar */
 }
+
+
+/* Calendar Page */
 
 .calendar-container {
     text-align: center;
