@@ -902,3 +902,79 @@ h1 {
 }
 
 /* Help Tab */
+/* Help Page Layout */
+.help-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+/* FAQ Box */
+.faq-box {
+    max-width: 500px;
+    background-color: #e0eaff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #153cb2;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-box h2 {
+    text-align: center;
+    color: #153cb2;
+}
+
+/* FAQ Items */
+.faq-item {
+    margin-top: 10px;
+    border-bottom: 2px solid #153cb2;
+}
+
+.faq-question {
+    width: 100%;
+    background-color: #153cb2;
+    color: white;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:hover {
+    background-color: #0f2a8a;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: black;
+}
+
+/* Down Arrow */
+.arrow-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate the arrow when active */
+.faq-question.active .arrow-icon {
+    transform: rotate(180deg);
+}
+
+/* Sketchfab 3D Model Container */
+.sketchfab-container iframe {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
