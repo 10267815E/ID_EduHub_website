@@ -246,12 +246,12 @@ body {
     text-align: center;
 }
 
-/* Container for the 3D model and text */
+/* Container for the 3D model and text box */
 .mascot-container {
     display: flex;
     align-items: center; /* Aligns items vertically */
     justify-content: center; /* Centers the items horizontally */
-    gap: 20px; /* Adds space between mascot and text */
+    gap: 20px; /* Space between mascot and text box */
     margin-top: 50px; /* Spacing from the slideshow */
     max-width: 900px; /* Limits width */
     margin-left: auto;
@@ -265,27 +265,34 @@ body {
     border-radius: 10px; 
 }
 
+
+/* Text Box Styling */
+.mascot-text-box {
+    max-width: 400px;
+    background-color: #e0eaff; /* Light blue background */
+    border: 2px solid #153cb2; /* Border color */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    height: 270px;
+}
+
 /* Mascot text styling */
-.mascot-text {
+.mascot-text-box {
     max-width: 400px;
     text-align: left;
 }
 
-.mascot-text h2 {
-    font-size: 24px;
+.mascot-text-box h2 {
+    font-size: 27px;
     margin-bottom: 10px;
 }
 
-.mascot-text p {
-    font-size: 16px;
-    color: #555;
+.mascot-text-box p {
+    font-size: 17px;
+    color: black;
 }
-
-
-
-
-
-
 
 
 
