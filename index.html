@@ -10,21 +10,32 @@
 </head>
 
 <body>
-    <form onsubmit="event.preventDefault(); login();">
-        <div class="input-group">
-            <label for="username"> Username: </label>
-            <input type="text" id="username" placeholder="Enter Username">
+    <div class="login-wrapper">
+        <img src="images/eduhub_logo-removebg-preview.png" alt="EduHub Logo" class="logo">
+        
+        <div class="login-container">
+            <div class="login-text">
+                <h1>Welcome to NP Edu Hub!</h1>
+                <h2>Login with your student email and password.</h2>
+            </div>
+
+            <form onsubmit="event.preventDefault(); login();">
+                <div class="input-group">
+                    <label for="username"> Username: </label>
+                    <input type="text" id="username" placeholder="Enter Username">
+                </div>
+            
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password">
+                </div>
+            
+                <button type="submit" class="login-btn">Log In</button>
+            </form>
+
+            <p id="error-message"></p> <!-- Error message display -->
         </div>
-    
-        <div class="input-group">
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter your password">
-        </div>
-    
-        <button type="submit" class="login-btn">Log In</button>
-    </form>
-    
-    <p id="error-message" style="color: red; text-align: center;"></p> <!-- Error message display -->
+    </div>
     <script src = login.js></script>
 </body>
 
