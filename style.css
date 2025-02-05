@@ -1064,9 +1064,13 @@ h1 {
 }
 
 .comment-box {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: none;
+}
+
+.posts-container h3 {
+    font-weight: normal;
 }
