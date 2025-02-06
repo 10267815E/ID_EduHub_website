@@ -1021,6 +1021,10 @@ h1 {
     margin-right: auto;
 }
 
+.post h2 {
+    font-size: medium;
+}
+
 .post-header {
     display: flex;
     align-items: center;
@@ -1037,6 +1041,7 @@ h1 {
     margin: 10px 0;
     font-weight: bold;
     font-size: 14px;
+    text-align: left;
 }
 
 .post-image {
@@ -1047,7 +1052,7 @@ h1 {
 }
 
 .comment-box {
-    width: 85%; 
+    width: 370px; 
     padding: 8px; 
     border: 1px solid #ccc;
     border-radius: 5px;
