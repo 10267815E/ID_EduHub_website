@@ -10,23 +10,42 @@
 </head>
 
 <body>
-   <nav class= "navbar">
-     <div class = "nav-left">
-        <a href = "home.html">
-          <img src="images/eduhub_logo-removebg-preview.png" alt="EduHub Logo" class="nav-logo">
-        </a>
-        
-     </div>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
 
-     <ul class = "nav-links">
-        <li><a href = "profile.html">Profile</a></li>
-        <li><a href = "calendar.html">Calendar</a></li>
-        <li><a href = "tasks.html">Tasks</a></li>
-        <li><a href = "help.html">Help</a></li>
-     </ul>
-
-     
-   </nav>
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="home.html">
+                <img src="images/eduhub_logo-removebg-preview.png" alt="EduHub Logo" class="nav-logo" height="50">
+            </a>
+    
+            <!-- Navbar Toggle for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="calendar.html">Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tasks.html">Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="help.html">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger fw-bold" href="index.html">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
    <div class="store-container">
     <h2>Point Redemption Store</h2>
