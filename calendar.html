@@ -15,23 +15,11 @@
 <body>
 
 
-   <script>
+   
 
-        document.addEventListener('DOMContentLoaded', function() {
-          var calendarEl = document.getElementById('calendar');
-          var calendar = new FullCalendar.Calendar(calendarEl, {
-            initialView: 'dayGridMonth'
-          });
-          calendar.render();
-        });
-  
-    </script>
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
 
-
-
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-
-  <div class="container-fluid">
+   <div class="container-fluid">
       <!-- Logo -->
       <a class="navbar-brand" href="home.html">
           <img src="images/eduhub_logo-removebg-preview.png" alt="EduHub Logo" class="nav-logo" height="50">
@@ -61,12 +49,26 @@
               <li class="nav-item">
                   <a class="nav-link text-danger fw-bold" href="index.html">Log Out</a>
               </li>
-          </ul>
-      </div>
-  </div>
-</nav>
+           </ul>
+       </div>
+   </div>
+ </nav>
+
+
+
+  <script>
+
+   document.addEventListener('DOMContentLoaded', function() {
+     var calendarEl = document.getElementById('calendar');
+     var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth'
+     });
+     calendar.render();
+   });
+
+  </script>
    
-   <div class="calendar-container">
+  <div class="calendar-container">
     <h1>View upcoming classes and assignments here:</h1>
     <div class="calendar-content">
         <div id="calendar"></div>
@@ -82,9 +84,9 @@
        </div>
        
     </div>
-</div>
+  </div>
 
-<script src="code.js"></script>
+  <script src="code.js"></script>
 
 </body>
 
