@@ -14,6 +14,10 @@ body {
     margin: 0;
 }
 
+.index-page {
+    background-color: #184eb3;
+}
+
 
 /* Login Wrapper */
 .login-wrapper {
