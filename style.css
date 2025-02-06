@@ -1060,6 +1060,10 @@ h2, h3 {
     font-size: medium;
 }
 
+.create-post-btn {
+    margin-left: 20px; /* Adjust gap between header and button */
+}
+
 /* Post Maker */
 .custom-btn {
     background-color: #184eb3; 
