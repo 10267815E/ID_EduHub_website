@@ -8,46 +8,112 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-     
     
 </head>
 
-<body>
-   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+<body class="ccas-body">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+       <div class="container-fluid">
+           <a class="navbar-brand" href="home.html">
+               <img src="images/eduhub_logo-removebg-preview.png" alt="EduHub Logo" class="nav-logo" height="50">
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto"> 
+                   <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                   <li class="nav-item"><a class="nav-link" href="calendar.html">Calendar</a></li>
+                   <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+                   <li class="nav-item"><a class="nav-link" href="help.html">Help</a></li>
+                   <li class="nav-item"><a class="nav-link text-danger fw-bold" href="index.html">Log Out</a></li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+ 
+   <!-- Main Content -->
+   <div class="container d-flex justify-content-center align-items-center vh-100">
+       <div class="ccas-card p-4 shadow-lg w-75">
+           <div class="ccas-card-body">
+               <h3 class="ccas-card-title text-center mb-4">Explore NP's Popular Clubs & Societies!</h3>
+               <div class="row">
+                   <!-- Column 1 -->
+                   <div class="col-md-4">
+                       <div class="d-grid gap-2">
+                           <button class="ccas-btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown1">
+                               Japanese Culture Club
+                           </button>
+                           <div class="collapse" id="dropdown1">
+                               <div class="ccas-card-body">More info about Button 1.</div>
+                           </div>
+                           <button class="ccas-btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown2">
+                               Korean Culture Club
+                           </button>
+                           <div class="collapse" id="dropdown2">
+                               <div class="ccas-card-body">More info about Button 2.</div>
+                           </div>
+                           <button class="ccas-btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown3">
+                               Malay Culture Club
+                           </button>
+                           <div class="collapse" id="dropdown3">
+                               <div class="ccas-card-body">More info about Button 3.</div>
+                           </div>
+                       </div>
+                   </div>
+ 
+                   <!-- Column 2 -->
+                   <div class="col-md-4">
+                       <div class="d-grid gap-2">
+                           <button class="ccas-btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown4">
+                               Archery Club
+                           </button>
+                           <div class="collapse" id="dropdown4">
+                               <div class="ccas-card-body">More info about Button 4.</div>
+                           </div>
+                           <button class="ccas-btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown5">
+                               Inline Skating Club
+                           </button>
+                           <div class="collapse" id="dropdown5">
+                               <div class="ccas-card-body">More info about Button 5.</div>
+                           </div>
+                           <button class="ccas-btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown6">
+                               Water Polo Club
+                           </button>
+                           <div class="collapse" id="dropdown6">
+                               <div class="ccas-card-body">More info about Button 6.</div>
+                           </div>
+                       </div>
+                   </div>
+ 
+                   <!-- Column 3 -->
+                   <div class="col-md-4">
+                       <div class="d-grid gap-2">
+                           <button class="ccas-btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown7">
+                               Astronomy Club
+                           </button>
+                           <div class="collapse" id="dropdown7">
+                               <div class="ccas-card-body">More info about Button 7.</div>
+                           </div>
+                           <button class="ccas-btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown8">
+                               Table Top Games Club
+                           </button>
+                           <div class="collapse" id="dropdown8">
+                               <div class="ccas-card-body">More info about Button 8.</div>
+                           </div>
+                           <button class="ccas-btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown9">
+                               Animal Rangers Club (SOAR)
+                           </button>
+                           <div class="collapse" id="dropdown9">
+                               <div class="ccas-card-body">More info about Button 9.</div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+ </body>
 
-      <div class="container-fluid">
-          <!-- Logo -->
-          <a class="navbar-brand" href="home.html">
-              <img src="images/eduhub_logo-removebg-preview.png" alt="EduHub Logo" class="nav-logo" height="50">
-          </a>
-  
-          <!-- Navbar Toggle for Mobile View -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <!-- Navbar Links -->
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto"> 
-                  <li class="nav-item">
-                      <a class="nav-link" href="profile.html">Profile</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="calendar.html">Calendar</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="tasks.html">Tasks</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="help.html">Help</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-danger fw-bold" href="index.html">Log Out</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-</body>
+</html> 

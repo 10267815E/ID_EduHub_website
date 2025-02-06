@@ -1084,6 +1084,7 @@ h2, h3 {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     padding: 20px;
+    height: 750px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     color: #000;
     transition: transform 0.3s ease-in-out;
@@ -1097,7 +1098,7 @@ h2, h3 {
 .ccas-card-title {
     font-size: 24px;
     font-weight: bold;
-    color: #0077b6;
+    color: white;
 }
 
 /* Button Styling */
@@ -1115,17 +1116,10 @@ h2, h3 {
     color: #fff;
 }
 
-.ccas-btn-success:hover {
-    background-color: #218838;
-}
-
-.ccas-btn-warning:hover {
-    background-color: #e0a800;
-}
-
 /* Dropdown Content */
 .ccas-card-body {
-    background: rgba(240, 240, 240, 0.95);
+    background: #005f99;
+    height: 150px;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
