@@ -1059,3 +1059,10 @@ h2, h3 {
 .support-text h3 {
     font-size: medium;
 }
+
+/* Post Maker */
+.custom-btn {
+    background-color: #184eb3; 
+    color: white; 
+    border: none; 
+}
