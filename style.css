@@ -101,51 +101,15 @@ body {
 
 /* Home Page */
 /* navigation bar customisation */
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1a5ea7;
-    padding: 0px 30px;
-    position: fixed; /* ensures its fixed to the top */
-    z-index: 1000;
-    width: 100%;
-    top:0;
-    left:0;
-    height:60px;
+.navbar-custom {
+    background-color: #184eb3;  
 }
 
-/* Small logo beside the nav bar links */
-.nav-logo{
-    height:50px;
-    width:auto;
+.navbar-custom .navbar-nav .nav-link {
+    color: white ; 
+    font-size: 18px; 
 }
 
-.nav-links{
-    list-style:none;
-    display:flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    margin-left:20px;
-    padding-right: 30px;
-}
-
-.nav-links li {
-    display:inline;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.nav-links a:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
 
 
 
