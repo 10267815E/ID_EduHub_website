@@ -1086,8 +1086,9 @@ h2, h3 {
     padding: 20px;
     height: 750px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    color: white;
+    color: #005f99;
     font-size: 12px;
+    font-weight: bold;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -1099,7 +1100,7 @@ h2, h3 {
 .ccas-card-title {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color:#005f99;
 }
 
 /* Button Styling */
@@ -1120,7 +1121,7 @@ h2, h3 {
 
 /* Dropdown Content */
 .ccas-card-body {
-    background: #005f99;
+    background-color: white;
     height: 300px;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
@@ -1134,4 +1135,20 @@ h2, h3 {
     padding-top: 10px;
     border-radius: 10px;
     margin-bottom: 10px; /* Adds space between the image and the text */
+}
+
+/* Specific colors for each CCA button */
+button[data-bs-target="#dropdown1"] { background-color: #ff6b6b; color: white; } /* Red */
+button[data-bs-target="#dropdown2"] { background-color: #6b99ff; color: white; } /* Blue */
+button[data-bs-target="#dropdown3"] { background-color: #ffbb33; color: white; } /* Yellow */
+button[data-bs-target="#dropdown4"] { background-color: #28a745; color: white; } /* Green */
+button[data-bs-target="#dropdown5"] { background-color: #17a2b8; color: white; } /* Teal */
+button[data-bs-target="#dropdown6"] { background-color: #fd7e14; color: white; } /* Orange */
+button[data-bs-target="#dropdown7"] { background-color: #6610f2; color: white; } /* Purple */
+button[data-bs-target="#dropdown8"] { background-color: #20c997; color: white; } /* Light Green */
+button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; } /* Pink */
+
+/* Hover Effects */
+.ccas-btn:hover {
+    filter: brightness(85%);
 }
