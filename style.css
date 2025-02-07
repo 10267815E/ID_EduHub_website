@@ -1191,7 +1191,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
     color: #555;
 }
 
-/* Unique images for each module */
+/* images for each module */
 .header-3d { 
     background: url('images/3d.jpg') center/cover no-repeat;
     background-size: cover;
@@ -1430,7 +1430,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 }
 
 .df-custom-btn:nth-child(1):hover {
-    background-color: teal; /* Darker orange on hover */
+    background-color: teal; 
 }
 
 
@@ -1493,7 +1493,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 
 .asg-column-content {
     padding: 15px;
-    background-color: #f4f4f4; /* Adjust as needed */
+    background-color: #f4f4f4; 
     border-radius: 8px;
     text-align: center;
 }
