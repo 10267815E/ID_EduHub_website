@@ -458,6 +458,10 @@ h1 {
     padding: 15px;
     border-radius: 8px;
     overflow: hidden;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Black overlay for headers */
@@ -477,6 +481,7 @@ h1 {
 .module h2 span {
     position: relative;
     z-index: 2;
+    font-size: 30px;
 }
 
 .module p {
@@ -485,10 +490,26 @@ h1 {
 }
 
 /* Unique images for each module */
-.header-3d { background: url('images/water.jpg') center/cover no-repeat; }
-.header-interactive { background: url('images/astro.jpg') center/cover no-repeat; }
-.header-design { background: url('images/archer.jpg') center/cover no-repeat; }
-.header-product { background: url('images/jap.jpg') center/cover no-repeat; }
+.header-3d { 
+    background: url('images/3d.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+.header-interactive { 
+    background: url('images/interactive.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+.header-design { 
+    background: url('images/design.jpg') center/cover no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.header-product { 
+    background: url('images/product.jpg') center/cover no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
 
 /* Center the button */
 .view-content-btn {
