@@ -433,8 +433,13 @@ h1 {
 }
 
 .modules-container h1 {
+    color: white;
     font-size: 40px;
-    margin-bottom:20px;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #007BFF;
+    margin-bottom:20px;
+    text-align: center;   
 }
 
 .module {
