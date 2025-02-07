@@ -1487,6 +1487,83 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
     font-size: 30px;
 }
 
+.asg .row {
+    margin-top: 20px;
+}
+
+.asg-column-content {
+    padding: 15px;
+    background-color: #f4f4f4; /* Adjust as needed */
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Help Page Layout */
+
+.asg h3 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.asg-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+/* FAQ Box */
+.asg-box {
+    max-width: 500px;
+    background-color: #e0eaff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #153cb2;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.asg-box h2 {
+    text-align: center;
+    color: #153cb2;
+}
+
+/* FAQ Items */
+.asg-item {
+    margin-top: 10px;
+    border-bottom: 2px solid #153cb2;
+}
+
+.asg-question {
+    width: 100%;
+    background-color: white;
+    color: #153cb2;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.asg-question:hover {
+    background-color: #0f2a8a;
+}
+
+.card-red {
+    background-color: #f8d7da; /* Light red */
+    border-color: #f5c6cb; /* Light red border */
+}
+.card-green {
+    background-color: #d4edda; /* Light green */
+    border-color: #c3e6cb; /* Light green border */
+}
+
+
 
 
 
