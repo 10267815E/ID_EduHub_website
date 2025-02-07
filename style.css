@@ -1296,3 +1296,108 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 .record-btn:hover {
     background-color: #0056b3;
 }
+
+/* 3D content styling */
+.df-container {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.df {
+    width: 80%;
+    background-color: white;
+    border: 2px solid #153cb2;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.df p {
+    font-size: 16px;
+    color: #555;
+}
+
+.df h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Black overlay for headers */
+.df h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+/* Ensure text stays on top */
+.df h2 span {
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+}
+
+/* Card Styling */
+.df-custom-card {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    background-color: #007BFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hide the description by default */
+.df-custom-card .description {
+    display: none;
+    color: white;
+    padding: 10px;
+}
+
+/* Show the description on hover */
+.df-custom-card:hover .description {
+    display: block;
+}
+
+/* Overlay for hover effect */
+.df-custom-card:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+/* Ensure the text stays above the overlay */
+.df-custom-card .card-body {
+    position: relative;
+    z-index: 2;
+}
+
+/* Slight zoom effect on hover */
+.df-custom-card:hover {
+    transform: scale(1.05);
+}
