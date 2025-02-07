@@ -1121,7 +1121,7 @@ h2, h3 {
 
 /* Dropdown Content */
 .ccas-card-body {
-    background-color: white;
+    background-color: red;
     height: 300px;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
