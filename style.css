@@ -1087,6 +1087,7 @@ h2, h3 {
     height: 750px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     color: white;
+    font-size: 12px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -1119,7 +1120,7 @@ h2, h3 {
 /* Dropdown Content */
 .ccas-card-body {
     background: #005f99;
-    height: 150px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
     padding-left: 10px;
@@ -1127,8 +1128,9 @@ h2, h3 {
 
 /* Image inside card body */
 .ccas-card-body img {
-    width: 100%; /* Makes the image responsive */
-    height: auto; /* Keeps the aspect ratio of the image */
+    width: 180px; /* Makes the image responsive */
+    height: 150px; /* Keeps the aspect ratio of the image */
+    padding-top: 10px;
     border-radius: 10px;
     margin-bottom: 10px; /* Adds space between the image and the text */
 }
