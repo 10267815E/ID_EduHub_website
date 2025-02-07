@@ -454,7 +454,7 @@ h1 {
 
 .profile-box, .achievements-box, .portfolio-box {
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid #184eb3;
     border-radius: 8px;
 }
 
@@ -466,13 +466,13 @@ h1 {
 }
 
 .profile-pic {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
 .details {
-    font-size: 16px;
+    font-size: 23px;
 }
 
 .achievements-box {
