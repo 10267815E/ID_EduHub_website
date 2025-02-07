@@ -1320,6 +1320,24 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
     color: black;
 }
 
+/* Submit Button */
+.submit-comment-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #184eb3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-comment-btn:hover {
+    background-color: #143b8a;
+}
+
 
 
 
