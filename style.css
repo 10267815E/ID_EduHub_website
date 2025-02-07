@@ -426,40 +426,6 @@ h1 {
     color: red;
 }
 
-/* Modules web page */
-.modules-container {
-    text-align: center;
-    padding-top:540px;
-}
-
-.modules-container h1 {
-    font-size: 40px;
-    margin-bottom:20px;   
-}
-
-.module {
-    width: 80%;
-    background-color: white;
-    border: 2px solid #153cb2;
-    padding: 20px;
-    margin: 10px auto;
-    text-align: center; /* Center-aligns all text & inline elements */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers button horizontally */
-}
-
-.module h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.module p {
-    font-size: 16px;
-    color: #555;
-}
-
 /* Center the button */
 .view-content-btn {
     background-color: #285a8e;
@@ -1080,13 +1046,14 @@ h2, h3 {
     padding: 0;
 }
 
+/* Dropdown font styling */
 .ccas-card {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     padding: 20px;
     height: 750px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    color: #005f99;
+    color: white;
     font-size: 12px;
     font-weight: bold;
     transition: transform 0.3s ease-in-out;
@@ -1121,7 +1088,7 @@ h2, h3 {
 
 /* Dropdown Content */
 .ccas-card-body {
-    background-color: red;
+    background-color: #005f99;
     height: 300px;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
@@ -1155,3 +1122,207 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 .ccas-btn:hover {
     filter: brightness(85%);
 }
+
+/* Modules web page */
+.modules-container {
+    text-align: center;
+    padding-top:540px;
+}
+
+.modules-container h1 {
+    color: white;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #007BFF;
+    margin-bottom:20px;
+    text-align: center;   
+}
+
+.module {
+    width: 80%;
+    background-color: white;
+    border: 2px solid #153cb2;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center; /* Center-aligns all text & inline elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers button horizontally */
+}
+
+.module h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Black overlay for headers */
+.module h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+    border-radius: 8px;
+}
+
+/* Ensure text stays on top */
+.module h2 span {
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+}
+
+.module p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Unique images for each module */
+.header-3d { 
+    background: url('images/3d.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+.header-interactive { 
+    background: url('images/interactive.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+.header-design { 
+    background: url('images/design.jpg') center/cover no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.header-product { 
+    background: url('images/product.jpg') center/cover no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+/*3df content styling*/
+.df-container {
+
+    text-align: center;
+    padding-top: 540px;
+    
+}
+
+.df {
+    width: 80%;
+    background-color: white;
+    border: 2px solid #153cb2;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center; /* Center-aligns all text & inline elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.df p {
+    font-size: 16px;
+    color: #555;
+}
+
+.df h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Black overlay for headers */
+.df h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+    border-radius: 8px;
+}
+
+/* Ensure text stays on top */
+.df h2 span {
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+}
+
+/* Styling for the card grid container */
+.df-card-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Space between cards */
+    margin-top: 30px;
+    width: 80%; /* Ensure it stays within the container */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for individual cards */
+.df-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.df-card-img {
+    width: 100%;
+    height: 200px; /* You can adjust the height as needed */
+    object-fit: cover;
+}
+
+.df-card-body {
+    padding: 15px;
+}
+
+.df-card-title {
+    font-size: 20px;
+    color: #153cb2;
+    margin-bottom: 10px;
+}
+
+.df-card-text {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Hover effect to darken the image */
+.df-card:hover .card-img {
+    opacity: 0.7;
+}
+
+/* Optional: you can also add a transition effect for the hover */
+.df-card-img {
+    transition: opacity 0.3s ease;
+}
+
+
