@@ -1434,5 +1434,63 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 }
 
 
+/*Assignment page styling*/
+.asg-container {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.asg {
+    width: 100%;
+    background-color: white;
+    border: 2px solid #153cb2;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asg h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Black overlay for headers */
+.asg h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+/* Ensure text stays on top */
+.asg h2 span {
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+}
+
+
+
+
+
+
 
 
