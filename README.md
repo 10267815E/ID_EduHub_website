@@ -132,6 +132,10 @@ The most common problem we found when we were coding was that our Javascript fun
 - Images for the CCAs are from the NP website (https://www.np.edu.sg/student-life/clubs-societies)
 
 - Timetable image is from my personal NPal
+  
+### Icons
+
+### Aniimations
 
 ### Aknowledgements
 
