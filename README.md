@@ -20,6 +20,13 @@ Low-fidelity prototype: https://www.figma.com/design/KWyebg93bnHai9Iy9uRJ3D/EduH
 
 High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/EduHub-High-Fidelity-Prototype?node-id=0-1&t=mUwTeuB5PrtxU7VM-1
 
+## Features
+
+- Event Slideshow: A slideshow that flashes through different events occuring in NP's physical campus right now, which might entice users to take part in these events.
+
+- Achievement Collection: EduHub offers a variety of achievements for users to collect so that users can incentivised to use EduHub extensively by having the urge to hunt down achievements.
+
+- 
 
 
 
