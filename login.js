@@ -1,17 +1,17 @@
 function login() {
-    // Get user input
+    // Get user data from the form
     let username = document.getElementById("username").value.trim();
     let password = document.getElementById("password").value.trim();
     let errorMessage = document.getElementById("error-message");
 
-    // API Key and Database URL
+    // API Key and Database URL for authentication
     const API_KEY = "67a366fa8599753f16559cc9";
-    const DATABASE_URL = "https://eduhub-d6de.restdb.io/rest/username"; // Adjust the collection name if needed
+    const DATABASE_URL = "https://eduhub-d6de.restdb.io/rest/username"; // Collection name
 
     // Check if fields are empty
     if (username === "" || password === "") {
         errorMessage.textContent = "Please enter both username and password.";
-        return;
+        return; // Stops the function if fields are empty
     }
 
     // Fetch user data from the database
@@ -23,19 +23,19 @@ function login() {
             "Cache-Control": "no-cache"
         }
     })
-    .then(response => response.json())
+    .then(response => response.json())  // Convert response to JSON
     .then(data => {
         if (data.length > 0) {
-            // User found, check password
+            // User found, check password to see if it matches the one in the database
             if (data[0].password === password) {
-                alert("Login successful!");
+                alert("Login successful!");  // Display success msg
                 window.location.href = "home.html"; // Redirect to home page
             } else {
-                errorMessage.textContent = "Incorrect password!";
+                errorMessage.textContent = "Incorrect password!"; // Display password error
             }
         } else {
-            errorMessage.textContent = "User not found!";
+            errorMessage.textContent = "User not found!"; // Display user not found
         }
     })
-    .catch(error => console.error("Error:", error));
+    .catch(error => console.error("Error:", error)); // Log any errors in console
 }
