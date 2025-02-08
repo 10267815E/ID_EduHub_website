@@ -80,10 +80,18 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 ## Testing
 
+1. Daily Tasks:
+
+- Go to daily tasks page
+
+- Click claim on a daily task
+
+- Check if achievement pops up
 
 
+EduHub has limited functionality on mobile devices as not all web pages used bootstrap. However, on those that are using bootstrap, it works well on mobile devices as the nav bar will shrink into a box that acts like a drop-down menu.
 
-
+The most common problem we found when we were coding was that our Javascript functionality wouldn't work if said code was in the same JS file as another Javascript code. For example, when I was coding the achievement pop-up page and placed the AI-assisted code into "script.js", which already had the JS code for the slideshow, it just refused to work. As a result, we had to make a seperate JS file every time there was Javascript functionality in our website.
 
 
 ## Credits
