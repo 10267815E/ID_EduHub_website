@@ -88,13 +88,13 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 ## Credits
 
-# Content
+### Content
 
 - NP Campus map is from the official Ngee Ann Poly website (https://www.np.edu.sg/docs/default-source/student-life2/fop/Campus-map.pdf)
 
 - CCA info is from NP website (https://www.np.edu.sg/student-life/clubs-societies)
 
-# Media
+### Media
 
 - Event images from the slideshow were obtained from Outlook via emails sent by the school
 
@@ -102,4 +102,6 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 - Timetable image is from my personal NPal
 
-# Aknowledgements
+### Aknowledgements
+
+- EduHub's features and structure was largely inspired by NPGO, Brightspace and NPal. However, the daily tasks system and achievements system are largely inspired by gacha games such as Genshin Impact and Honkai: Star Rail.
