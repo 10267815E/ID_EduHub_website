@@ -26,8 +26,23 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 - Achievement Collection: EduHub offers a variety of achievements for users to collect so that users can incentivised to use EduHub extensively by having the urge to hunt down achievements.
 
-- 
+- Calendar and timetable: EduHub has a built-in calendar and timetable so users can see when their assignments are due and when their lessons will be taking place. This gives the users peace of mind when it comes to adhering to deadlines and also improves their time management.
 
+- Daily tasks: EduHub also has a "Daily Task' feature, where users will be greeted with 3 tasks everyday, categorised in increasing difficulty (Green being easy, orange being medium, red being hard). Furthermore, when users finish a task and claim it, they may earn points and also an achievement. This incentivises users to log-in everyday to earn their daily points, making using EduHub a habit.
+
+- Redeem store: EduHub has a redeem store where users can use their hard-earned points to redeem for NP merch, which gives users a "goal" to work towards.
+
+- Help/ FAQ Page: EduHub has a help tab where there are four frequently asked questions that users usually ask, and a drop-down arrow that users can click, which would display the answers to those questions. This gives users a convenient place for them to look up answers to the questions they might have, which allows users to have a better understanding of NP and EduHub.
+
+- Campus map:
+
+- CCAs tab:
+
+- Assignments tab:
+
+- Student support:
+
+- Password protected account:
 
 
 
