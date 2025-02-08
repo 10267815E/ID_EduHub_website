@@ -1,5 +1,5 @@
 * {
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Same font for whole webpage */
 }
 
 /* Log-in Page */
@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     background-color: white;
     padding-top: 60px;
@@ -15,24 +15,24 @@ body {
 }
 
 .index-page {
-    background-color: #184eb3;
+    background-color: #184eb3;  /* Background colour */
 }
 
 
 /* Login Wrapper */
 .login-wrapper {
-    display: flex;
+    display: flex;    
     align-items: center;
-    background: rgb(28, 244, 244);
+    background: rgb(28, 244, 244);  /* Inner background colour */
     padding: 50px;  
-    border-radius: 10px;
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);  
+    border-radius: 10px;  /* Rounded edges */
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);   /* Shadow to enhance the look */
 }
 
 /* EduHub Logo */
 .logo {
     width: 180px; 
-    margin-right: 40px;  
+    margin-right: 40px;   /* Ensures logo is positioned on the right of the login text boxes and buttons */
 }
 
 /* Login Container */
@@ -54,7 +54,7 @@ body {
 .login-text h2 {
     margin: 5px 0 30px;
     font-size: 18px;
-    color: #333;
+    color: black;
 }
 
 /* Input Group */
@@ -73,7 +73,7 @@ body {
     padding: 12px;  
     font-size: 16px; 
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 5px; /* Rounded edges */
 }
 
 /* Login Button */
@@ -89,7 +89,7 @@ body {
 }
 
 .login-btn:hover {
-    background-color: #153cb2;
+    background-color: #153cb2; /* Darker colour as opposed to og colour */
 }
 
 /* Error Message */
@@ -109,9 +109,6 @@ body {
     color: white ; 
     font-size: 18px; 
 }
-
-
-
 
 
 /* Slideshow Styles */
@@ -152,7 +149,7 @@ body {
 
 /* Centers the dots */
 .dots-container {
-    text-align: center;
+    text-align: center;  /* Makes sure the dots are centered */
     padding: 10px;
     position: absolute;
     bottom: 10px; /* Adjust the positioning of the dots */
@@ -166,9 +163,9 @@ body {
     width: 15px;
     margin: 0 2px;
     background-color: #bbb;
-    border-radius: 50%;
+    border-radius: 50%; /* Circle */
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease;  /* Have the effect that it's going on to the next dot */
 }
 
 /* When the dot is active (when it's respective image is showing), the color changes */
@@ -188,7 +185,7 @@ body {
 
 .search-container {
     display: flex;
-    align-items: center;
+    align-items: center; /* Centers search bar and modules button */
     width: 100%;
     max-width: 700px; /* Increases max width */
     gap: 10px;
@@ -209,16 +206,16 @@ body {
     height: 40px;
     background-color: #007BFF;
     color: white;
-    border: 2px solid #007BFF;
+    border: 2px solid #007BFF; /* Ensures that the border is the same colour as the button */
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    text-align: center;
+    text-align: center; /* Button text is centered */
 }
 
 .modules-button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker colour then the button og colour */
 }
 
 
@@ -239,7 +236,7 @@ body {
     margin-right: auto;
 }
 
-/* Adjust the Sketchfab iframe size */
+/* Sketchfab iframe size adjustment */
 .sketchfab-wrapper iframe {
     width: 400px; 
     height: 300px;
@@ -252,11 +249,11 @@ body {
     max-width: 400px;
     background-color: #e0eaff; /* Light blue background */
     border: 2px solid #153cb2; /* Border color */
-    border-radius: 10px;
+    border-radius: 10px;  
     padding: 15px;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    height: 270px;
+    height: 300px; /* Same height as 3d model embed */
 }
 
 /* Mascot text styling */
@@ -274,8 +271,6 @@ body {
     font-size: 17px;
     color: black;
 }
-
-
 
 .home-content {
     display: flex;
@@ -334,7 +329,7 @@ html, body {
 }
 
 .social-icons img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1);  /* Images enlarge slightly when hovered over */
 }
 
 
@@ -362,7 +357,7 @@ h1 {
 }
 
 #calendar {
-    width:60%;
+    width:60%;  /* Ensures calendar doesn't take up so much space */
 }
 
 .timetable {
@@ -379,7 +374,7 @@ h1 {
     max-width: 100%; /* Ensures the image scales properly */
     height: auto;
     border: 2px solid #184eb3; 
-    border-radius: 5px;
+    border-radius: 5px;  /* Rounded edges */
 }
 
 .calendar-container h1 {
@@ -393,7 +388,7 @@ h1 {
 .modal {
     display: none; /* Hidden by default */
     position: fixed;
-    z-index: 1000;
+    z-index: 1000;  /* Ensures that pop-up would be above everything on the web page */
     left: 0;
     top: 0;
     width: 100%;
@@ -408,7 +403,7 @@ h1 {
     max-width: 80%;
     max-height: 80%;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2); /* Have the effect that the rest of the page is greyed out */
 }
 
 /* Close Button */
@@ -423,17 +418,19 @@ h1 {
 }
 
 .close:hover {
-    color: red;
+    color: red;  /* Colour for X button */
 }
 
+
+/* Modules page */
 /* Center the button */
 .view-content-btn {
     background-color: #285a8e;
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Removes the underline */
     border: none;
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 20px;  /* Rounded edges */
     cursor: pointer;
     font-size: 23px;
     font-weight: bold;
@@ -447,7 +444,7 @@ h1 {
 .profile-container {
     margin-top: 20px;
     padding: 20px;
-    display: grid;
+    display: grid;  /* Ensures that theres two boxes above and a larger box below */
     grid-template-columns: 1fr 1fr; /* Create two columns */
     grid-gap: 20px;
 }
@@ -455,7 +452,7 @@ h1 {
 .profile-box, .achievements-box, .portfolio-box {
     padding: 20px;
     border: 2px solid #184eb3;
-    border-radius: 8px;
+    border-radius: 5px; /* Rounded edges */
 }
 
 .profile-details {
@@ -468,7 +465,7 @@ h1 {
 .profile-pic {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 50%;  /* Ensures its a circle*/
 }
 
 .details {
@@ -533,20 +530,20 @@ h1 {
 
 .first-place {
     width: 800px;
-    background-color: gold; 
+    background-color: gold;  /* Gold to symbolise first */
     color:black;
 
 }
 
 .second-place {
     width: 650px;
-    background-color: silver; /* Silver */
+    background-color: silver; /* Silver to symbolise second*/
     color: black;
 }
 
 .third-place {
     width: 480px;
-    background-color: #cd7f32; /* Bronze color */
+    background-color: #cd7f32; /* Bronze to symbolise third */
     color: black;
 }
 
@@ -554,21 +551,22 @@ h1 {
     width: 270px;
     padding: 15px;
     background-color: #184eb3;
-    border-radius: 10px;
+    border-radius: 10px;  /* Rounded edges */
     text-align: center;
     font-size: 18px;
-    font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.5;   /* Makes the text fill up more of the box */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     height: 275px;
 }
 
 .wall-of-honour p {
     color: white;
+    font-weight: lighter; /* Lighter font weight to differentiate itself from the header*/
 }
 
 .wall-of-honour h3 {
     color: white;
+    font-weight: bold; /* Bolder font weight as the header */
 }
 
 /* Wrap the leaderboard and tasks boxes in a flex container */
@@ -607,7 +605,7 @@ h1 {
     background-color: #184eb3;
     color: white;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 5px; /* Rounded edges */
     font-size: 16px;
 }
 
@@ -620,10 +618,9 @@ h1 {
 
 /* Shop Icon */
 .shop-icon {
-    width: 30px; /* Adjust size as needed */
+    width: 30px; 
     height: 30px;
     cursor: pointer;
-
 }
 
 /* Task list container */
@@ -652,12 +649,12 @@ h1 {
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; /* Changes user's cursor to pointer to represent that it is clickable */
     transition: 0.3s;
 }
 
 .claim-btn:hover {
-    background-color: #122d77;
+    background-color: #122d77; /* Darker colour for contrast */
 }
 
 /* Align Claim button & difficulty circle */
@@ -667,26 +664,11 @@ h1 {
     gap: 10px;
 }
 
-/* Claim Button */
-.claim-btn {
-    background-color: #184eb3;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.claim-btn:hover {
-    background-color: #122d77;
-}
-
 /* Difficulty indicator circles */
 .difficulty {
     width: 12px;
     height: 12px;
-    border-radius: 50%;
+    border-radius: 50%; /* Cirlcles */
 }
 
 /* Easy Difficulty Marker */
@@ -710,7 +692,7 @@ h1 {
     bottom: -100px; /* Start hidden */
     left: 20px;
     width: 250px;
-    transition: bottom 0.5s ease-in-out;
+    transition: bottom 0.5s ease-in-out; 
     opacity: 0;
 }
 
@@ -723,7 +705,7 @@ h1 {
 /* Grey out claim button when clicked */
 .claim-btn.disabled {
     background-color: grey;
-    cursor: not-allowed;
+    cursor: not-allowed; /* Shows that it's not clickable any more */
     pointer-events: none;
 }
 
@@ -734,7 +716,7 @@ h1 {
 }
 
 .achievements-grid {
-    display: grid;
+    display: grid; 
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 20px;
     justify-content: center;
@@ -751,13 +733,13 @@ h1 {
 }
 
 .achievement:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Makes the box enlarge slightly when hovered over */
 }
 
 .achievement img {
     width: 100px;
     height: 100px;
-    object-fit: cover;
+    object-fit: cover;  /* Ensures img fits within box */
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -794,7 +776,7 @@ h1 {
 /* Products Grid */
 .products {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Ensures that img and all text are centered */
     gap: 20px;
 }
 
@@ -843,8 +825,8 @@ h1 {
     border: none;
     padding: 8px 12px;
     font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 5px; /* Rounded edges */
+    cursor: pointer;  /* Shows that it is clickable */
     margin-top: 10px;
     transition: background-color 0.3s;
 }
@@ -853,7 +835,7 @@ h1 {
 /* Help Page Layout */
 .help-content {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centers both 3d model and FAQ box at the center of the page */
     align-items: flex-start;
     gap: 40px;
     max-width: 1000px;
@@ -865,19 +847,19 @@ h1 {
     max-width: 500px;
     background-color: #e0eaff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px;  /* Rounded edges */
     border: 2px solid #153cb2;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .faq-box h2 {
-    text-align: center;
+    text-align: center; /* Centers the header text */
     color: #153cb2;
 }
 
 /* FAQ Items */
 .faq-item {
-    margin-top: 10px;
+    margin-top: 10px;  /* Ensures gap between each item */
     border-bottom: 2px solid #153cb2;
 }
 
@@ -889,15 +871,15 @@ h1 {
     border: none;
     text-align: left;
     font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
+    font-weight: bold;  /* Question is emphasised */
+    cursor: pointer; /* Shows that it is clickable */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .faq-question:hover {
-    background-color: #0f2a8a;
+    background-color: #0f2a8a; /* Darker colour fopr contrast */
 }
 
 .faq-answer {
@@ -917,11 +899,11 @@ h1 {
 
 /* Rotate the arrow when active */
 .faq-question.active .arrow-icon {
-    transform: rotate(180deg);
+    transform: rotate(180deg);  /* "Animation" for arrow */
 }
 
 /* Sketchfab 3D Model Container */
-.sketchfab-container iframe {
+.sketchfab-container iframe {  /* Enlarge embed so that it is a similiar size to the FAQ box */
     width: 400px;
     height: 355px;
     border-radius: 10px;
@@ -931,7 +913,7 @@ h1 {
 
 /* Campus Map Container */
 .campus-map-container {
-    text-align: center;
+    text-align: center; 
     margin-top: 50px;
 }
 
@@ -943,7 +925,7 @@ h1 {
 /* Layout for Image & Map */
 .map-content {
     display: flex;
-    justify-content: center;
+    justify-content: center;  /* Ensures image and map are centered */
     align-items: center;
     gap: 20px;
     max-width: 1000px;
@@ -979,6 +961,7 @@ h2, h3 {
     margin-bottom: 20px;
 }
 
+/* Styling for posts */
 .post {
     background-color: #f9f9f9;
     padding: 10px;
@@ -1001,7 +984,7 @@ h2, h3 {
 .profile-pic {
     width: 25px;
     height: 25px;
-    border-radius: 50%;
+    border-radius: 50%;  /* Circle*/
 }
 
 .post-title {
@@ -1013,7 +996,7 @@ h2, h3 {
 .post-image {
     width: 100%;
     max-height: 150px;
-    object-fit: contain;
+    object-fit: contain;  /* Ensures img fits in the post */
 }
 
 .comment-box {
@@ -1060,7 +1043,7 @@ h2, h3 {
 }
 
 .ccas:hover {
-    transform: scale(1.02);
+    transform: scale(1.02); 
 }
 
 /* Title Styling */
@@ -1076,7 +1059,7 @@ h2, h3 {
     font-weight: bold;
     height: 100px;
     padding: 12px;
-    border-radius: 10px;
+    border-radius: 10px;  /* Rounded edges */
     transition: all 0.3s ease;
 }
 
@@ -1103,7 +1086,7 @@ h2, h3 {
     width: 270px; /* Makes the image responsive */
     height: 150px; /* Keeps the aspect ratio of the image */
     padding-top: 10px;
-    border-radius: 10px;
+    border-radius: 10px; /* Rounded edges */
     margin-bottom: 10px; /* Adds space between the image and the text */
 }
 
@@ -1120,12 +1103,12 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 
 /* Hover Effects */
 .ccas-btn:hover {
-    filter: brightness(85%);
+    filter: brightness(85%);  /* Makes the card look darker when hovered over */
 }
 
 /* Modules web page */
 .modules-container {
-    text-align: center;
+    text-align: center; /* Centers items */
     padding-top:540px;
 }
 
@@ -1254,7 +1237,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 .file-upload-box {
     width: 100%;
     height: 100px;
-    border: 2px dashed #aaa;
+    border: 2px dashed #aaa;  /* Dashed lines to simulate a drag and drop box */
     background: #f9f9f9;
     display: flex;
     align-items: center;
@@ -1268,7 +1251,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 15px;
+    margin-top: 15px; /* Ensures gap between buttons and upload box */
 }
 
 .upload-btn, .record-btn {
@@ -1276,7 +1259,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
     border: none;
     border-radius: 5px;
     font-size: 14px;
-    cursor: pointer;
+    cursor: pointer; /* Shows that it is clickable */
 }
 
 .upload-btn {
@@ -1375,7 +1358,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
     position: relative;
     color: white;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 8px; /* Rounded edges */
     overflow: hidden;
     width: 1300px;
     display: flex;
@@ -1392,7 +1375,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    z-index: 1; /* Ensures text is above the background */
     border-radius: 8px;
 }
 
