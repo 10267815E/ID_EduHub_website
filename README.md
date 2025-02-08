@@ -22,6 +22,8 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 ## Features
 
+### Existing Features
+
 - Event Slideshow: A slideshow that flashes through different events occuring in NP's physical campus right now, which might entice users to take part in these events.
 
 - Achievement Collection: EduHub offers a variety of achievements for users to collect so that users can incentivised to use EduHub extensively by having the urge to hunt down achievements.
@@ -34,15 +36,21 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 - Help/ FAQ Page: EduHub has a help tab where there are four frequently asked questions that users usually ask, and a drop-down arrow that users can click, which would display the answers to those questions. This gives users a convenient place for them to look up answers to the questions they might have, which allows users to have a better understanding of NP and EduHub.
 
-- Campus map:
+- Campus map: EduHub has an interactive campus map (powered by Google maps) to allow users to navigate throughout the school.
 
-- CCAs tab:
+- Student support: EduHub has a "Student Support" page where users can post a query that they might have regarding their modules/assignments, where other users can then reply to them. This gives users a piece of mind while doing their assignments as they will know that they can rely on the EduHub community.
 
-- Assignments tab:
+- Password protected account: Users have to log in to their EduHub account via their NP email and the correct password (controlled via API). This means that EduHub accounts are secure and users will not have to worry about others compromising their account security.
 
-- Student support:
+### Features left to implement
 
-- Password protected account:
+- Working comment section: A function which allows users to type in a comment and have the text be reflected in the comment box.
+
+## Technologies used
+
+
+
+
 
 
 
