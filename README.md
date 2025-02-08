@@ -1,3 +1,63 @@
+# EduHub
+
+EduHub is a one-stop app for students of Ngee Ann Poly that merges the features of NPal, POLITEMall and NPGO. We think that it is a hassle for students to juggle between these three apps during their poly life. For example, students usually have to have these three apps open to check their timetable (NPal), take attendance (NPGO) and access module materials (Brightspace). Hence, EduHub serves as a culmination of the features of these three apps to help students navigate their poly life seamlessly. Gone are the days where students have to open multiple tabs just to go about their day!
+
+Furthermore, EduHub also features a points system and a redeem store to incentivise students to use the app!
+
+## Design Process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
