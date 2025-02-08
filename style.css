@@ -1165,7 +1165,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 /* Ensure text stays on top */
 .module h2 span {
     position: relative;
-    z-index: 2;
+    z-index: 2;  /* Z-index to ensure text stays on top */
     font-size: 30px;
 }
 
@@ -1212,7 +1212,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 
 .back-button {
     width: 30px;
-    margin-right: 15px;
+    margin-right: 15px; /* Ensures button is at the far right */
 }
 
 
