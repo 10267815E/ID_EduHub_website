@@ -77,3 +77,29 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 ![ChatGPT AI Assistance 6](images/ai_assist8.png)
 ![ChatGPT AI Assistance 6](images/ai_assist9.png)
 ![ChatGPT AI Assistance 6](images/ai_assist10.png)
+
+## Testing
+
+
+
+
+
+
+
+## Credits
+
+# Content
+
+- NP Campus map is from the official Ngee Ann Poly website (https://www.np.edu.sg/docs/default-source/student-life2/fop/Campus-map.pdf)
+
+- CCA info is from NP website (https://www.np.edu.sg/student-life/clubs-societies)
+
+# Media
+
+- Event images from the slideshow were obtained from Outlook via emails sent by the school
+
+- Images for the CCAs are from the NP website (https://www.np.edu.sg/student-life/clubs-societies)
+
+- Timetable image is from my personal NPal
+
+# Aknowledgements
