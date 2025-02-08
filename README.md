@@ -94,7 +94,11 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 ![ChatGPT AI Assistance 8](images/ai_assist15.jpg)
 ![ChatGPT AI Assistance 8](images/ai_assist15pt2.jpg)
 
-11.  
+11.  Add image into the dropdown content: used chatGPT to modify the html code for the drop down buttons to allow an image to be displayed above the text used for the clubs & societies page.
+![ChatGPT AI Assistance 8](images/ai_assist16.jpg)
+
+12. Added unique colors to each button for the Clubs and societies page dropdown button layout using chatGPT to add in the css code.
+![ChatGPT AI Assistance 8](images/ai_assist17.jpg)
 
 
 ## Testing
