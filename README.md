@@ -82,8 +82,21 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 ![ChatGPT AI Assistance 7](images/ai_assist11.png)
 ![ChatGPT AI Assistance 7](images/ai_assist12.png)
 
-8. Dropdown button with image and text: ChatGPT was used to help code the image into the drop down content of the button.
+8. Added a card into the two column layout: ChatGPT was used to enhance the 2 column layout for the 3df content page.
 ![ChatGPT AI Assistance 8](images/ai_assist13.jpg)
+![ChatGPT AI Assistance 8](images/ai_assist13pt2.jpg)
+
+9.  Added another 2 column layout with cards in each column into the continous assessments section of the assignment page with ChatGPT:
+![ChatGPT AI Assistance 8](images/ai_assist14.jpg)
+![ChatGPT AI Assistance 8](images/ai_assist14pt2.jpg)
+
+10.  ChatGPT was used to help modify the css code for the 3df content page to create black overlay effect for the cards.
+![ChatGPT AI Assistance 8](images/ai_assist15.jpg)
+![ChatGPT AI Assistance 8](images/ai_assist15pt2.jpg)
+
+11.  
+
+
 ## Testing
 
 1. Daily Tasks:
