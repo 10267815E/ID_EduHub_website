@@ -1595,9 +1595,8 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 }
 
 /* CSS to hide the animation initially */
-/* CSS to hide the animation initially */
 .hidden {
-    display: none;
+    display: none; 
 }
 
 /* Flexbox to align button and animation side by side */
