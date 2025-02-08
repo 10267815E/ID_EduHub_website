@@ -48,67 +48,10 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 ## Technologies used
 
+- FullCalendar: https://fullcalendar.io/
+  - The project uses FullCalendar's interactive calendar to simulate the calendar function.
 
+## Assistive AI
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-credit FullCalendar: https://fullcalendar.io/
+1. Restdb API (Username and password): ChatGPT was used to help me implement my restdb API into my login screen.
+![ChatGPT AI Assistance of RestDB API](images/ai_assist1.png)
