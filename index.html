@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduHub Login Page</title>
     <link rel="stylesheet" href="normalise.css">
     <link rel="stylesheet" href="style.css">
-    
+
+    <!-- Lottie Animation Library -->
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 
-<body class = "index-page">
+<body class="index-page">
 
     <!-- Wrapper for centering the login form -->
     <div class="login-wrapper">
@@ -22,7 +24,8 @@
                 <h1>Welcome to NP Edu Hub!</h1>
                 <h2>Login with your student email and password.</h2>
             </div>
-             <!-- Log-in form -->
+
+            <!-- Log-in form -->
             <form onsubmit="event.preventDefault(); login();">
                 <div class="input-group">
                     <label for="username"> Username: </label>
@@ -33,18 +36,29 @@
                     <label for="password">Password:</label>
                     <input type="password" id="password" placeholder="Enter your password">
                 </div>
-            
-                <button type="submit" class="login-btn">Log In</button>
+
+                <!-- Login button and Lottie animation side by side -->
+                <div class="login-row">
+                    <button type="submit" class="login-btn">Log In</button>
+
+                    <!-- Lottie Animation (Hidden Initially) -->
+                    <div id="loading-animation" class="hidden">
+                        <dotlottie-player 
+                            src="https://lottie.host/4f9af54b-1ac6-47d4-9c48-f3867178de75/opgd0e5f5R.lottie" 
+                            background="transparent" 
+                            speed="1" 
+                            style="width: 50px; height: 50px;" 
+                            loop 
+                            autoplay>
+                        </dotlottie-player>
+                    </div>
+                </div>
             </form>
 
             <p id="error-message"></p> <!-- Error message display -->
         </div>
     </div>
-    <script src = login.js></script>
+
+    <script src="login.js"></script>
 </body>
-
-
-
-
-
 </html>

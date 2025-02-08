@@ -1,18 +1,22 @@
 function login() {
-    // Get user data from the form
+    // Get user input
     let username = document.getElementById("username").value.trim();
     let password = document.getElementById("password").value.trim();
     let errorMessage = document.getElementById("error-message");
+    let loadingAnimation = document.getElementById("loading-animation");
 
-    // API Key and Database URL for authentication
+    // API Key and Database URL
     const API_KEY = "67a366fa8599753f16559cc9";
-    const DATABASE_URL = "https://eduhub-d6de.restdb.io/rest/username"; // Collection name
+    const DATABASE_URL = "https://eduhub-d6de.restdb.io/rest/username"; // Adjust the collection name if needed
 
     // Check if fields are empty
     if (username === "" || password === "") {
         errorMessage.textContent = "Please enter both username and password.";
-        return; // Stops the function if fields are empty
+        return;
     }
+
+    // Show loading animation beside login button
+    loadingAnimation.classList.remove("hidden");
 
     // Fetch user data from the database
     fetch(`${DATABASE_URL}?q={"username":"${username}"}`, {
@@ -23,19 +27,27 @@ function login() {
             "Cache-Control": "no-cache"
         }
     })
-    .then(response => response.json())  // Convert response to JSON
+    .then(response => response.json())
     .then(data => {
         if (data.length > 0) {
-            // User found, check password to see if it matches the one in the database
+            // User found, check password
             if (data[0].password === password) {
-                alert("Login successful!");  // Display success msg
-                window.location.href = "home.html"; // Redirect to home page
+                setTimeout(() => {
+                    alert("Login successful!");
+                    window.location.href = "home.html"; // Redirect to home page
+                }, 2000); // Delay to allow animation to play
             } else {
-                errorMessage.textContent = "Incorrect password!"; // Display password error
+                errorMessage.textContent = "Incorrect password!";
+                loadingAnimation.classList.add("hidden"); // Hide animation on error
             }
         } else {
-            errorMessage.textContent = "User not found!"; // Display user not found
+            errorMessage.textContent = "User not found!";
+            loadingAnimation.classList.add("hidden"); // Hide animation on error
         }
     })
-    .catch(error => console.error("Error:", error)); // Log any errors in console
+    .catch(error => {
+        console.error("Error:", error);
+        errorMessage.textContent = "An error occurred. Please try again.";
+        loadingAnimation.classList.add("hidden"); // Hide animation on error
+    });
 }
