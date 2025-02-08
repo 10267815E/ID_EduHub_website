@@ -81,6 +81,9 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 7. Lottie animation functionality with login button: ChatGPT was used to code the logic behind the lottie animation pausing when login button is pressed.
 ![ChatGPT AI Assistance 7](images/ai_assist11.png)
 ![ChatGPT AI Assistance 7](images/ai_assist12.png)
+
+8. Dropdown button with image and text: ChatGPT was used to help code the image into the drop down content of the button.
+![ChatGPT AI Assistance 8](images/ai_assist13.jpg)
 ## Testing
 
 1. Daily Tasks:
