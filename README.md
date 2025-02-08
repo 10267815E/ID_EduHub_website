@@ -54,4 +54,10 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 ## Assistive AI
 
 1. Restdb API (Username and password): ChatGPT was used to help me implement my restdb API into my login screen.
-![ChatGPT AI Assistance of RestDB API](images/ai_assist1.png)
+![ChatGPT AI Assistance 1](images/ai_assist1.png)
+
+2. Help page drop-down textbox function: ChatGPT was used to code the Javascript code for the drop-down textbox function in the help tab.
+![ChatGPT AI Assistance 2](images/ai_assist2.png)
+
+3. Achievement pop-up: ChatGPT was used to code the Javascript code for the pop-up feature when users claim a daily task.
+![ChatGPT AI Assistance 3](images/ai_assist3.png)
