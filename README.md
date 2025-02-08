@@ -70,3 +70,10 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 
 5. Bootstrap Nav bar: ChatGPT was used to code the nav bar using bootstrap.
 ![ChatGPT AI Assistance 5](images/ai_assist5.png)
+
+6. Bootstrap Nav bar: ChatGPT was used to code the grid layout of the student support page.
+![ChatGPT AI Assistance 6](images/ai_assist6.png)
+![ChatGPT AI Assistance 6](images/ai_assist7.png)
+![ChatGPT AI Assistance 6](images/ai_assist8.png)
+![ChatGPT AI Assistance 6](images/ai_assist9.png)
+![ChatGPT AI Assistance 6](images/ai_assist10.png)
