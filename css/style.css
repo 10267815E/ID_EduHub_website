@@ -522,7 +522,7 @@ h1 {
 .leaderboard-item {
     padding: 20px;
     font-size: 24px;
-    font-weight: light;
+    font-weight:lighter;
     color: white;
     text-align:left;
     margin-bottom: 10px;
