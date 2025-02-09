@@ -112,7 +112,6 @@ The most common problem we found when we were coding was that our Javascript fun
 
 - Images for the CCAs are from the NP website (https://www.np.edu.sg/student-life/clubs-societies)
 
-<<<<<<< HEAD
 - Timetable image is from our personal NPal
 
 - The links for the cover images are as follows: 
@@ -166,9 +165,6 @@ vsc code: Taken from a random vsc file we had.
 Achievements pop up image was taken from our figma prototype ( you can view via our figma link)
 
 ### Icons
-=======
-- Timetable image is from my personal NPal
->>>>>>> 23f7c04c1a9199f5e0e712e09809606635d0cfb8
 
 All icons here were taken from Icons8 (https://icons8.com/)
 
