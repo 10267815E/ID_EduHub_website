@@ -1176,7 +1176,7 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 
 /* images for each module */
 .header-3d { 
-    background: url('images/3d.jpg') center/cover no-repeat;
+    background: url('images/3df.jpg') center/cover no-repeat;
     background-size: cover;
     background-position: center;
  }
