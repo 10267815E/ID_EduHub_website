@@ -4,6 +4,7 @@ EduHub is a one-stop app for students of Ngee Ann Poly that merges the features 
 
 Furthermore, EduHub also features a points system and a redeem store to incentivise students to use the app!
 
+
 ## Design Process
 
 As mentioned above, the primary goal of EduHub was to make a one-stop app that merges the features of NPAL, Brightspace and NPGO, so that students would find their daily poly life easier. This means that our users do not have to juggle between so many tabs and potentially lag their devices or find doing assignments cumbersome, because EduHub incapsulates all integral features of Npal, Brightspace and NPGO. In addition to that, we also want students to have a platform for them to seek help if they run into issues while doing their assignment. Hence, EduHub also has a "Student Support" page where users can post their own queries and let other users answer.
@@ -81,26 +82,6 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 7. Lottie animation functionality with login button: ChatGPT was used to code the logic behind the lottie animation pausing when login button is pressed.
 ![ChatGPT AI Assistance 7](images/ai_assist11.png)
 ![ChatGPT AI Assistance 7](images/ai_assist12.png)
-
-8. Added a card into the two column layout: ChatGPT was used to enhance the 2 column layout for the 3df content page.
-![ChatGPT AI Assistance 8](images/ai_assist13.jpg)
-![ChatGPT AI Assistance 8](images/ai_assist13pt2.jpg)
-
-9.  Added another 2 column layout with cards in each column into the continous assessments section of the assignment page with ChatGPT:
-![ChatGPT AI Assistance 8](images/ai_assist14.jpg)
-![ChatGPT AI Assistance 8](images/ai_assist14pt2.jpg)
-
-10.  ChatGPT was used to help modify the css code for the 3df content page to create black overlay effect for the cards.
-![ChatGPT AI Assistance 8](images/ai_assist15.jpg)
-![ChatGPT AI Assistance 8](images/ai_assist15pt2.jpg)
-
-11.  Add image into the dropdown content: used chatGPT to modify the html code for the drop down buttons to allow an image to be displayed above the text used for the clubs & societies page.
-![ChatGPT AI Assistance 8](images/ai_assist16.jpg)
-
-12. Added unique colors to each button for the Clubs and societies page dropdown button layout using chatGPT to add in the css code.
-![ChatGPT AI Assistance 8](images/ai_assist17.jpg)
-
-
 ## Testing
 
 1. Daily Tasks:
@@ -129,62 +110,18 @@ The most common problem we found when we were coding was that our Javascript fun
 
 - Event images from the slideshow were obtained from Outlook via emails sent by the school
 
-
-### Aniimations
-
 - Images for the CCAs are from the NP website (https://www.np.edu.sg/student-life/clubs-societies)
 
-- Timetable image is from our personal NPal
-
-- The links for the cover images are as follows: 
-
-3D (https://www.google.com/url?sa=i&url=https%3A%2F%2Fsinmordaza.com%2Fnoticia%2F203492-el-cubo-rubik-cumplio-47-anos.html&psig=AOvVaw2Qn-tki_WNxItVNG7DQ9pm&ust=1739166554208000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJinnLnytYsDFQAAAAAdAAAAABAJ), 
-  
-ID (https://researchleap.com/interdisciplinary-comparison-of-innovation-processes-differences-similarities-and-spillovers/), 
-
-AD (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fgrantwiggins%2F&psig=AOvVaw07IrLSEeoKnVusrpoJgMR-&ust=1739166689847000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODl6ffytYsDFQAAAAAdAAAAABAE), 
-
-PMT (https://www.nimrithatech.com/company.php)
-
-Avatar images:
-
-dog: https://www.instagram.com/jetapets/p/DA18KpJiEYm/
-
-girl: https://topdanangcity.com/avatar-cute/
-
-hamster: https://fr.freepik.com/photos-vecteurs-libre/kawaii-face/5
-
-blue def male: https://www.freepik.com/free-vector/blue-circle-with-white-user_145857007.htm
-
-def cartoon male: https://www.dreamstime.com/%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C-man-avatar-profile-male-face-icon-vector-illustration-image226594812
-
-sky: https://www.nicepng.com/ourpic/u2q8t4o0w7u2u2o0_circle-profile-picture-tumblr-circle-profile-picture-tumblr/
-
-merchandise:
-
-shirt: https://media.karousell.com/media/photos/products/2022/4/6/ngee_ann_polytechnic_open_hous_1649258745_7d66d440
-
-bear: https://th.bing.com/th/id/OIP.qFScZssCe-5eNuNBqIP8ygHaHa?rs=1&pid=ImgDetMain
-
-shirt2: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPyxNI2k5wXlLg9UDk0AFzwjsBZSyqx7T5g&s 
-
-student support images:
-
-3d cat: https://www.google.com/url?sa=i&url=https%3A%2F%2Fzeelproject.com%2F6417-other-models-creature-max-obj-fbx.html&psig=AOvVaw3v9AC30Xec-qAY_uQsqgQ1&ust=1739094162784000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPCsmODks4sDFQAAAAAdAAAAABAE
-
-3d repo:
-
-3d angon:
-
-java error:
-
-sql error:
-
-vsc code: Taken from a random vsc file we had. 
-
-  
-### Icons
+- Timetable image is from my personal NPal
 
 ### Aknowledgements
 
 - EduHub's features and structure was largely inspired by NPGO, Brightspace and NPal. However, the daily tasks system and achievements system are largely inspired by gacha games such as Genshin Impact and Honkai: Star Rail.
+
+-GitHub link: https://github.com/10267815E/ID_EduHub_website
+
+### Roles
+
+Front-end developer: Xander
+
+API developer: Rayner

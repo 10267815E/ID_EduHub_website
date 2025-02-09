@@ -7,7 +7,7 @@ function login() {
 
     // API Key and Database URL
     const API_KEY = "67a366fa8599753f16559cc9";
-    const DATABASE_URL = "https://eduhub-d6de.restdb.io/rest/username"; // Adjust the collection name if needed
+    const DATABASE_URL = "https://eduhub-d6de.restdb.io/rest/username";
 
     // Check if fields are empty
     if (username === "" || password === "") {
