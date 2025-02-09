@@ -1176,22 +1176,22 @@ button[data-bs-target="#dropdown9"] { background-color: #e83e8c; color: white; }
 
 /* images for each module */
 .header-3d { 
-    background: url('images/3df.jpg') center/cover no-repeat;
+    background: url('/images/3df.jpg') center/cover no-repeat;
     background-size: cover;
     background-position: center;
  }
 .header-interactive { 
-    background: url('images/interactive.jpg') center/cover no-repeat;
+    background: url('/images/interactive.jpg') center/cover no-repeat;
     background-size: cover;
     background-position: center;
  }
 .header-design { 
-    background: url('images/design.jpg') center/cover no-repeat;
+    background: url('/images/design.jpg') center/cover no-repeat;
     background-size: cover; 
     background-position: center;
 }
 .header-product { 
-    background: url('images/product.jpg') center/cover no-repeat;
+    background: url('/images/product.jpg') center/cover no-repeat;
     background-size: cover; 
     background-position: center;
 }
