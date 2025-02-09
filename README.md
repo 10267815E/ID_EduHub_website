@@ -145,6 +145,43 @@ ID (https://researchleap.com/interdisciplinary-comparison-of-innovation-processe
 AD (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fgrantwiggins%2F&psig=AOvVaw07IrLSEeoKnVusrpoJgMR-&ust=1739166689847000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODl6ffytYsDFQAAAAAdAAAAABAE), 
 
 PMT (https://www.nimrithatech.com/company.php)
+
+Avatar images:
+
+dog: https://www.instagram.com/jetapets/p/DA18KpJiEYm/
+
+girl: https://topdanangcity.com/avatar-cute/
+
+hamster: https://fr.freepik.com/photos-vecteurs-libre/kawaii-face/5
+
+blue def male: https://www.freepik.com/free-vector/blue-circle-with-white-user_145857007.htm
+
+def cartoon male: https://www.dreamstime.com/%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C-man-avatar-profile-male-face-icon-vector-illustration-image226594812
+
+sky: https://www.nicepng.com/ourpic/u2q8t4o0w7u2u2o0_circle-profile-picture-tumblr-circle-profile-picture-tumblr/
+
+merchandise:
+
+shirt: https://media.karousell.com/media/photos/products/2022/4/6/ngee_ann_polytechnic_open_hous_1649258745_7d66d440
+
+bear: https://th.bing.com/th/id/OIP.qFScZssCe-5eNuNBqIP8ygHaHa?rs=1&pid=ImgDetMain
+
+shirt2: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPyxNI2k5wXlLg9UDk0AFzwjsBZSyqx7T5g&s 
+
+student support images:
+
+3d cat: https://www.google.com/url?sa=i&url=https%3A%2F%2Fzeelproject.com%2F6417-other-models-creature-max-obj-fbx.html&psig=AOvVaw3v9AC30Xec-qAY_uQsqgQ1&ust=1739094162784000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPCsmODks4sDFQAAAAAdAAAAABAE
+
+3d repo:
+
+3d angon:
+
+java error:
+
+sql error:
+
+vsc code: Taken from a random vsc file we had. 
+
   
 ### Icons
 
