@@ -213,6 +213,7 @@ login animation link: https://lottie.host/embed/af12b6c2-51d4-48ea-a6ba-c1fa91b2
 - EduHub's features and structure was largely inspired by NPGO, Brightspace and NPal. However, the daily tasks system and achievements system are largely inspired by gacha games such as Genshin Impact and Honkai: Star Rail.
 
 -GitHub link: https://10267815e.github.io/ID_EduHub_website/
+-Github page: https://github.com/10267815E/ID_EduHub_website
 
 ### Roles
 
