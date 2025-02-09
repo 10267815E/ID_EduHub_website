@@ -82,6 +82,25 @@ High-fidelity prototype: https://www.figma.com/design/vCXfjYOyMaTAc93VTvoHb5/Edu
 7. Lottie animation functionality with login button: ChatGPT was used to code the logic behind the lottie animation pausing when login button is pressed.
 ![ChatGPT AI Assistance 7](images/ai_assist11.png)
 ![ChatGPT AI Assistance 7](images/ai_assist12.png)
+
+8. Dual column layout: ChatGPT was used to code the dual column layout for the 3df content page.
+![ChatGPT AI Assistance 7](images/ai_assist13.jpg)
+![ChatGPT AI Assistance 7](images/ai_assist13pt2.jpg)
+
+9. 3 vertical cards with text in each column: ChatGPT was used to code the enhanced layout of the continous assessment section of the assignment page.
+![ChatGPT AI Assistance 7](images/ai_assist14.jpg)
+![ChatGPT AI Assistance 7](images/ai_assist14pt2.jpg)
+
+10. Replaced bootstrap with custom css: ChatGPT was used to code the black overlay hover effect for cards in the 3df content page.
+![ChatGPT AI Assistance 7](images/ai_assist15.jpg)
+![ChatGPT AI Assistance 7](images/ai_assist15pt2.jpg)
+
+11. Image added into dropdown button content: ChatGPT was used to code in the image above the description of dropdown content in the Clubs & societies page.
+![ChatGPT AI Assistance 7](images/ai_assist16.jpg)
+
+12. Custom button colors for dropdown buttons: ChatGPT was used to code the css code for the dropdown button colors in the clubs and societies page.
+![ChatGPT AI Assistance 7](images/ai_assist17.jpg)
+
 ## Testing
 
 1. Daily Tasks:
