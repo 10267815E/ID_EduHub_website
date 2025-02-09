@@ -112,7 +112,86 @@ The most common problem we found when we were coding was that our Javascript fun
 
 - Images for the CCAs are from the NP website (https://www.np.edu.sg/student-life/clubs-societies)
 
+<<<<<<< HEAD
+- Timetable image is from our personal NPal
+
+- The links for the cover images are as follows: 
+
+3D (https://www.google.com/url?sa=i&url=https%3A%2F%2Fsinmordaza.com%2Fnoticia%2F203492-el-cubo-rubik-cumplio-47-anos.html&psig=AOvVaw2Qn-tki_WNxItVNG7DQ9pm&ust=1739166554208000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJinnLnytYsDFQAAAAAdAAAAABAJ), 
+  
+ID (https://researchleap.com/interdisciplinary-comparison-of-innovation-processes-differences-similarities-and-spillovers/), 
+
+AD (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fgrantwiggins%2F&psig=AOvVaw07IrLSEeoKnVusrpoJgMR-&ust=1739166689847000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODl6ffytYsDFQAAAAAdAAAAABAE), 
+
+PMT (https://www.nimrithatech.com/company.php)
+
+Avatar images:
+
+dog: https://www.instagram.com/jetapets/p/DA18KpJiEYm/
+
+girl: https://topdanangcity.com/avatar-cute/
+
+hamster: https://fr.freepik.com/photos-vecteurs-libre/kawaii-face/5
+
+blue def male: https://www.freepik.com/free-vector/blue-circle-with-white-user_145857007.htm
+
+def cartoon male: https://www.dreamstime.com/%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C-man-avatar-profile-male-face-icon-vector-illustration-image226594812
+
+sky: https://www.nicepng.com/ourpic/u2q8t4o0w7u2u2o0_circle-profile-picture-tumblr-circle-profile-picture-tumblr/
+
+D pfp was also taken from figma prototype with the background removed by bg remover.
+
+merchandise:
+
+shirt: https://media.karousell.com/media/photos/products/2022/4/6/ngee_ann_polytechnic_open_hous_1649258745_7d66d440
+
+bear: https://th.bing.com/th/id/OIP.qFScZssCe-5eNuNBqIP8ygHaHa?rs=1&pid=ImgDetMain
+
+shirt2: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPyxNI2k5wXlLg9UDk0AFzwjsBZSyqx7T5g&s 
+
+student support images:
+
+3d cat: https://www.google.com/url?sa=i&url=https%3A%2F%2Fzeelproject.com%2F6417-other-models-creature-max-obj-fbx.html&psig=AOvVaw3v9AC30Xec-qAY_uQsqgQ1&ust=1739094162784000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPCsmODks4sDFQAAAAAdAAAAABAE
+
+3d repo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fforum.revopoint3d.com%2Ft%2Ffirst-test-scan-the-retopoligizing-in-maya-2022%2F3170&psig=AOvVaw0Gaax0hWoynvZuTP-qiQu2&ust=1739170042938000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPjthbj_tYsDFQAAAAAdAAAAABAE
+
+3d angon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FMaya%2Fcomments%2F10ly31p%2Fwhen_are_ngons_ok%2F&psig=AOvVaw0Cv_DN0ab6jNo5N7O-ltaZ&ust=1739170073623000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMjjusX_tYsDFQAAAAAdAAAAABAE 
+
+java error: https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F46229788%2Fwhy-does-java-not-compile-my-code&psig=AOvVaw3dsgYPFHtILpYX4aQgExEP&ust=1739170093776000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiN2tD_tYsDFQAAAAAdAAAAABAE 
+
+sql error: https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fgeekculture%2Ftagged%2Ferror-message&psig=AOvVaw1AMIltKukleHPlX1j0pwq9&ust=1739170227126000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCICV-46AtosDFQAAAAAdAAAAABAE 
+
+vsc code: Taken from a random vsc file we had. 
+
+Achievements pop up image was taken from our figma prototype ( you can view via our figma link)
+
+### Icons
+=======
 - Timetable image is from my personal NPal
+>>>>>>> 23f7c04c1a9199f5e0e712e09809606635d0cfb8
+
+All icons here were taken from Icons8 (https://icons8.com/)
+
+3d: https://icons8.com/icon/BEa3DoPM5tos/3d 
+ps: https://icons8.com/icon/11113/adobe-photoshop
+code: https://icons8.com/icon/7692/code 
+unity: https://icons8.com/icon/39848/unity
+jira: https://icons8.com/icon/7EZ6mRn825lD/jira
+vsc: https://icons8.com/icon/121602/visual-studio
+egg: https://icons8.com/icon/39558/easter-egg">Egg
+arrow-down: https://icons8.com/icon/99977/sort-down
+instagram: https://icons8.com/icon/Xy10Jcu1L2Su/instagram
+linkedin: https://icons8.com/icon/xuvGCOXi8Wyg/linkedin
+YT: https://icons8.com/icon/19318/youtube
+telegram: https://icons8.com/icon/63306/telegram-app
+back arrow: https://icons8.com/icon/39944/left-arrow 
+location: https://icons8.com/icon/fLFTtJbNqW1j/location
+store: https://icons8.com/icon/15893/shopping-cart 
+
+plus button taken from figma prototype
+
+### Animations
+login animation link: https://lottie.host/embed/af12b6c2-51d4-48ea-a6ba-c1fa91b29b2e/3QiV8oPwY2.lottie 
 
 ### Aknowledgements
 
