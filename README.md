@@ -129,13 +129,24 @@ The most common problem we found when we were coding was that our Javascript fun
 
 - Event images from the slideshow were obtained from Outlook via emails sent by the school
 
-- Images for the CCAs are from the NP website (https://www.np.edu.sg/student-life/clubs-societies)
-
-- Timetable image is from my personal NPal
-  
-### Icons
 
 ### Aniimations
+
+- Images for the CCAs are from the NP website (https://www.np.edu.sg/student-life/clubs-societies)
+
+- Timetable image is from our personal NPal
+
+- The links for the cover images are as follows: 
+
+3D (https://www.google.com/url?sa=i&url=https%3A%2F%2Fsinmordaza.com%2Fnoticia%2F203492-el-cubo-rubik-cumplio-47-anos.html&psig=AOvVaw2Qn-tki_WNxItVNG7DQ9pm&ust=1739166554208000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJinnLnytYsDFQAAAAAdAAAAABAJ), 
+  
+ID (https://researchleap.com/interdisciplinary-comparison-of-innovation-processes-differences-similarities-and-spillovers/), 
+
+AD (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fgrantwiggins%2F&psig=AOvVaw07IrLSEeoKnVusrpoJgMR-&ust=1739166689847000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODl6ffytYsDFQAAAAAdAAAAABAE), 
+
+PMT (https://www.nimrithatech.com/company.php)
+  
+### Icons
 
 ### Aknowledgements
 
